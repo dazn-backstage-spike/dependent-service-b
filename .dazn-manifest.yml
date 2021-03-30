@@ -1,0 +1,9 @@
+dazn-manifest: 3.0.0
+owner: fake@test.com
+services:
+  - name: dependent-service-b
+    application-tags:
+      - ""
+    security:
+      risk-owner: fake@test.com
+      risk-tier: Low
