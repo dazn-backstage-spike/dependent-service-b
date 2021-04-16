@@ -2,6 +2,7 @@ dazn-manifest: 3.0.0
 owner: fake@test.com
 services:
   - name: dependent-service-b
+    description: a dependent service
     application-tags:
       - ""
     security:
